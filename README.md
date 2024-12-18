@@ -4,7 +4,7 @@ Note: Only tested for windows
 # File Structure
 your file structure should be like this
 ```
-D:/path/to/your/project/              # Your project root
+C:/path/to/your/project/              # Your project root
 ├── opencv_build/
 │   ├── build/                     # Build output
 │   ├── install/                   # Install output
@@ -16,6 +16,9 @@ D:/path/to/your/project/              # Your project root
 ├── pyproject.toml
 └── .env                          # Project-wide environment vars
 ```
+
+# Environment Variables
+set `USE_POETRY` to `true` if you want to install it with poetry. set to `false` if you want to install it on system's Python. it will refer to whatever the `python` command executable resolve to.
 
 # Steps
 1. Configure `opencv_build.env` with all the paths needed
