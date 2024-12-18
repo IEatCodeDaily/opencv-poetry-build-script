@@ -6,4 +6,4 @@ install/
 test*
 
 # scripts output
-**/*.json
+*.json
